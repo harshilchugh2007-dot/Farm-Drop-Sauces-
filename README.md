@@ -446,14 +446,5 @@ To connect your Cloudflare-hosted frontend with your Render backend:
    ```
 4. Deploy your frontend to Cloudflare Pages. CORS is already pre-configured to allow all `*.pages.dev` and `*.workers.dev` origins!
 
----
-
-## 🎓 University Evaluation Highlights
-
-- **Clean RESTful Design**: Proper HTTP verbs (`GET`, `POST`, `OPTIONS`), standard status codes (`200 OK`, `201 Created`, `400 Bad Request`, `404 Not Found`, `500 Server Error`).
-- **Zero Third-Party Dependency / Pure In-House Logic**: The conversational assistant engine and data stores run natively without external paid APIs, preventing secret leakage or quota failures during evaluation.
-- **Resilient Error Handling**: Centralized error middleware, comprehensive parameter validation, and client-side offline fallbacks.
-- **Production Ready**: Full CORS security headers, environment decoupling, and Render cloud compatibility.
-
----
+--
 **Created by Harshil Chugh**
